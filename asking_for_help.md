@@ -30,7 +30,7 @@ __**Include the following key bits of information:**__
 - A ___full___ diff of your changes
 - What host are you on?
 
-## Bonus Step: Create a Small Repro
+## Bonus Step: Create a Small Repro 😊
 
 Sometimes, error states are particularly complex or hard, or it's just not clear where the error is coming from. Consider providing a minimal set of steps, or minimal diff such that the channel onpoint may reproduce the error state locally, without having to dig through _all_ of your changes.
 
@@ -43,19 +43,6 @@ In paring back your local diff to an MCVE, we:
 
 Tools like [Try Flow](https://flow.org/try/), [CodeSandbox](https://codesandbox.io/) and [Repl.it](https://repl.it/) are great ways to quickly share code without the overhead of making a new directory, repository etc.
 
-> Don't share sensitive company code on these sites - replace anything proprietary with "Foo", "Bar" etc
+> 🚨 Don't share sensitive company code on these sites - replace anything proprietary with "Foo", "Bar" etc
 
 Questions with MCVEs are the very best kind of questions one could hope to receive - your channel onpoint will love you greatly should you follow this!
-
-# Appendix
-
-## Gathering information to include with your request for help
-
-
-Include the following key bits of information:
-
-What service or package are you working on?
-Is it currently failing on master?
-A full stack trace (or link to Jenkins/Seagull failure. Include the command you ran!)
-A full diff of your changes
-What devbox are you on?
