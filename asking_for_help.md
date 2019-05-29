@@ -6,9 +6,9 @@
 > - A ___full___ diff of your changes
 > - What host are you on?
 
-# How to Ask for Help in Slack / IRC
+# How to Ask for Technical Help in Slack / IRC
 
-Here are some tips for what to include in your message when asking for help in Slack. The quicker/easier it is for others to to understand your question, the quicker you will get the answers you are looking for!
+Here are some tips for what to include in your message when asking for technical help in Slack. The quicker/easier it is for others to to understand your question, the quicker you will get the answers you are looking for!
 
 In general, the best questions are questions that include the most detail. Read on more for what this means. Thanks for helping keep things running smoothly in Slack! :)
 
