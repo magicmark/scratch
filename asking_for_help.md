@@ -20,7 +20,7 @@ __Additionally__, you might have folks on your team who know more about the tool
 
 ## Step 1: Ask the Question!  📣
 
-Hop into the channel and go ahead and ping the onpoint! [Don't ask to ask](http://rurounijones.github.io/blog/2009/03/17/how-to-ask-for-help-on-irc/), just go straight ahead with your question!
+Hop into the channel and ping the onpoint! [Don't ask to ask](http://rurounijones.github.io/blog/2009/03/17/how-to-ask-for-help-on-irc/), just go straight ahead with your question!
 
 __**Include the following key bits of information:**__
 
