@@ -12,9 +12,11 @@ Here are some tips for what to include in your message when asking for technical
 
 In general, the best questions are questions that include the most detail. Read on more for what this means. Thanks for helping keep things running smoothly in Slack! :)
 
-## Step 0: Search on Slack / Docs / Ask Your Mentor / Knowledgable Team-mates  🤔
+## Step 0: Search on Slack / Docs
 
-It's possible someone has already experienced similar issues to you. Before asking the question, spend a few minutes searching through Slack/IRC history, or company wiki/docs to see if you can find any answers there!
+It's possible someone has already experienced similar issues to you. Before asking the question, spend a few minutes searching through Slack/IRC/company wiki/docs etc to see if you can find any answers there!
+
+### Ask Your Mentor / Knowledgable Team-mates  🤔
 
 __Mentors__ can help answer common questions that you may encounter when getting started in a new project or development environment. It helps to ask them before going to another channel for assistance. Furthermore, they can help point you to the correct team if they are unable to answer the question themselves.
 
