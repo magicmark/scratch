@@ -4,7 +4,7 @@ This is a random collection bunch of scripts I use for doing various things. use
 
 ## listing all top level JS dependencies of a package
 
-```bash
+```sh
 jq -r '.dependencies , .devDependencies | to_entries | .[] | .key' package.json | grep -v yelp | tr '\n' ' '
 ```
 
@@ -18,18 +18,18 @@ ps fux | grep my_service_here | tr -s ' ' | cut -d' ' -f2 | xargs kill
 
 ## find all yarn linked packages
 
-```bash
+```sh
 find node_modules -maxdepth 1 -type l -ls
 ```
 
 ## run a quick docker container
 
-```bash
+```sh
 docker run -t -i --rm ubuntu bash
 ```
 
 ## change the value of a constant in a directory
 
-```bash
+```sh
 find ./react_component_renderer -type f -name "*.yaml" | xargs -I{} sed -i -e 's/mem: 2800/mem: 4096/g' {}
 ```
