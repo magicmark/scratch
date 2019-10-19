@@ -8,6 +8,12 @@ This is a random collection bunch of scripts I use for doing various things. use
 jq -r '.dependencies , .devDependencies | to_entries | .[] | .key' package.json | grep -v yelp | tr '\n' ' '
 ```
 
+### With versions:
+
+```sh
+jq -r '.dependencies | to_entries[] | .key as $k | .value as $v | "\($k)@\($v)"' package.json | grep -v yelp | tr '\n' ' '
+```
+
 ## killing all processes related to X
 
 This is usually a super bad idea. Probably don't run this, unless you're feeling super lazy.
