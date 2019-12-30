@@ -39,3 +39,9 @@ docker run -t -i --rm ubuntu bash
 ```sh
 find ./react_component_renderer -type f -name "*.yaml" | xargs -I{} sed -i -e 's/mem: 2800/mem: 4096/g' {}
 ```
+
+## `find` (with ignored directories)
+
+```bash
+tree -a -I 'node_modules|\.git'
+```
