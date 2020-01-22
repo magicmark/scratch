@@ -45,3 +45,19 @@ find ./react_component_renderer -type f -name "*.yaml" | xargs -I{} sed -i -e 's
 ```bash
 tree -a -I 'node_modules|\.git'
 ```
+
+## bash script
+
+```bash
+#!/bin/bash
+set -euo pipefail
+
+if [ "$#" -ne 1 ]
+then
+    echo '/path/to/script <foo>'
+    exit 1;
+fi
+
+FOO="$1"
+echo $FOO
+```
