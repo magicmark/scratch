@@ -52,6 +52,10 @@ tree -a -I 'node_modules|\.git'
 #!/bin/bash
 set -euo pipefail
 
+# https://stackoverflow.com/a/246128/4396258
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+
 if [ "$#" -ne 1 ]
 then
     echo '/path/to/script <foo>'
