@@ -19,5 +19,5 @@ main().catch((e) => {
     console.error(e);
     // or if you want colorized output, to keep chained causal stack traces, you need util.inspect
     console.error(chalk.red(util.inspect(e)));
-	process.exit(1);
+    process.exit(1);
 });
