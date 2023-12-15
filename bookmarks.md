@@ -1,1 +1,2 @@
 - https://earthly.dev/blog/awk-examples/
+- https://tontinton.com/posts/database-fundementals/
